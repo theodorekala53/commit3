@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="media/mediaplus/WhatsApp_Image_2022-06-20_at_17.20.54-removebg-preview.png" alt="">
+            </a>
+        </div>
+        <input type="checkbox" id="checkboxClick">
+        <label for="checkboxClick" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+    <!-- NAV LINKS -->
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="gallerie.html">Gallerie</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Store.html">Store</a></li>
+        </ul>
+    </nav>
+    <div class="checkout-body">
+        <div class="progress-checkout-container">
+            <div class="progress-step-container">
+                <div class="step-check"></div>
+                <span class="step-title">Versand</span>
+            </div>
+            <div class="progress-step-container">
+                <div class="step-check"></div>
+                <span class="step-title">Zahlung</span>
+            </div>
+            <div class="progress-step-container">
+                <div class="step-check"></div>
+                <span class="step-title">Übersich</span>
+            </div>
+        </div>
+        <div class="form-container">
+            <h2 class="form-title">Zahlungsinformationen</h2>
+            <form action="#" class="checkout-form">
+                <div class="input-line">
+                    <label for="name">karteninhaber</label>
+                    <input type="text" name="nam" id="name" placeholder="Vor und Nachname">
+                </div>
+                <div class="input-line">
+                    <label for="name">Kartennummer</label>
+                    <input type="text" name="name" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="input-container">
+                    <div class="input-line">
+                        <label for="name">Gültigkeit</label>
+                        <input type="text" name="name" placeholder="09-21">
+                    </div>
+                    <div class="input-line">
+                        <label for="name">CVC</label>
+                        <input type="text" name="name" placeholder="***">
+                    </div>
+                </div>
+                <input type="button" value="Jetzt Bezahlen">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="bloc-1">
+            <div class="kontakt">
+                <div class="box">
+                    <span>Versand & Rückgabe</span>
+                    <span>AGB</span>
+                    <span>Zahlungsmethoden</span>
+                    <span>Impressum</span>
+                    <span>Datenschutz</span>
+                </div>
+                <div class="box">
+                    <span>Kontakt</span>
+                    <span>Tel.: +49 (0) 456 7890</span>
+                    <span>info@website.com</span>
+                </div>
+                <div class="box">
+                    <span>Facebook</span>
+                    <span>Instagram</span>
+                    <span>Pinterest</span>
+                </div>
+            </div>
+            <div class="mail">
+                <p>Abonnieren Sie unseren Newsletter und bleiben Sie Uptodate!</p>
+                <input type="text" placeholder="Email hier eingeben"><br>
+                <button>Jetzt Abbonieren</button>
+            </div>
+            <div class="zahlungen">
+                <span>Zahlungsmethoden</span>
+                <ul>
+                    <li>
+                        <div class="icons"></div>
+                    </li>
+                    <li>
+                        <div class="icons"></div>
+                    </li>
+                    <li>
+                        <div class="icons"></div>
+                    </li>
+                </ul>
+            </div>
+            <span class="cp">@Team Cedric und theodore</span>
+        </div>
+    </footer>
+</body>
+</html>

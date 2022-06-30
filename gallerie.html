@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallerie</title>
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="media/mediaplus/WhatsApp_Image_2022-06-20_at_17.20.54-removebg-preview.png" alt="">
+            </a>
+        </div>
+        <input type="checkbox" id="checkboxClick">
+        <label for="checkboxClick" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <!-- NAV LINKS -->
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="Store.html">Store</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallerie.html">Gallerie</a></li>
+        </ul>
+    </nav>
+    <div class="gallerie-grid">
+        <div class="item icons">
+            <ul>
+                <a class="fa-brands fa-instagram" href="https://www.instagram.com/"></a>
+                <a class="fa-brands fa-facebook-f" href="https://www.facebook.com/"></a>
+                <a class="fa-brands fa-twitter" href="https://twitter.com/"></a>
+                <a class="fa-brands fa-youtube" href="https://www.youtube.com/"></a>
+            </ul>
+            <hr>
+        </div>
+        <div class="item container">
+            <h1>Price Essaka gallerie</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="feature-img">
+                        <img src="media/mediaplus/lui6.jpeg" width="100%">
+                        <img src="media/icons/play.png" class="play-btn"
+                        onclick="playVideo('media/icons/Man Texting On The Street.mp4')">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="media/icons/pic2.png">
+                            <img src="media/icons/play.png" class="play-btn"
+                            onclick="playVideo('media/icons/video11.mp4')">
+                        </div>
+                        <p>PRINCE ESSAKA in Kamerun geboren </p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="media/icons/pic2.png">
+                            <img src="media/icons/play.png" class="play-btn">
+                        </div>
+                        <p>PRINCE ESSAKA in Kamerun geboren </p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="media/icons/pic3.png">
+                            <img src="media/icons/play.png" class="play-btn">
+                        </div>
+                        <p>PRINCE ESSAKA in Kamerun geboren </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-player" id="videoPlayer">
+            <video width="100%" controls autoplay id="myVideo">
+                <source src="media/icons/Man Texting On The Street.mp4" type="video/mp4">
+            </video>
+            <img src="media/icons/close.png" class="close-btn" onclick="stopVideo()">
+        </div>
+    </div>
+    <!-- java script -->
+    <footer class="footer">
+        <div class="bloc-1">
+            <div class="kontakt">
+                <div class="box">
+                    <span>Versand & Rückgabe</span>
+                    <span>AGB</span>
+                    <span>Zahlungsmethoden</span>
+                    <span>Impressum</span>
+                    <span>Datenschutz</span>
+                </div>
+                <div class="box">
+                    <span>Kontakt</span>
+                    <span>Tel.: +49 (0) 456 7890</span>
+                    <span>info@website.com</span>
+                </div>
+                <div class="box">
+                    <span>Facebook</span>
+                    <span>Instagram</span>
+                    <span>Pinterest</span>
+                </div>
+            </div>
+            <div class="mail">
+                <p>Abonnieren Sie unseren Newsletter und bleiben Sie Uptodate!</p>
+                <input type="text" placeholder="Email hier eingeben"><br>
+                <button>Jetzt Abbonieren</button>
+            </div>
+            <div class="zahlungen">
+                <span>Zahlungsmethoden</span>
+                <ul>
+                    <li>
+                        <div class="icons"></div>
+                    </li>
+                    <li>
+                        <div class="icons"></div>
+                    </li>
+                    <li>
+                        <div class="icons"></div>
+                    </li>
+                </ul>
+            </div>
+            <span class="cp">@Team Cedric und theodore</span>
+        </div>
+    </footer>
+    <script src="gallerrie.js"></script>
+</body>
+</html>
