@@ -393,7 +393,7 @@ footer .zahlungen ul{
     flex-direction: row;
 }
 footer .zahlungen .icons:first-child{
-    background: url(/project/marshall/media/Icons_Zahlunng/paypal.png);
+    background: url(media/Icons_Zahlunng/paypal.png);
     height: 50px;
     width: 50px;
     background-size: cover;
