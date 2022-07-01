@@ -582,6 +582,9 @@ footer .zahlungen .icons:first-child{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.about-grid .first{
+    padding-top: 70px;
+}
 .about-grid .first img{
     height: auto;
     width: 100%;
@@ -613,7 +616,9 @@ footer .zahlungen .icons:first-child{
     text-align: center;
 }
 .container-shop-titel{
-    background-color: rgb(161, 161, 86);
+    /* background-color: rgb(161, 161, 86); */
+    background: url(/img/pic6.jpeg);
+    background-size: cover;
     height: 600px;
     padding-top: 220px;
 }
@@ -621,6 +626,9 @@ footer .zahlungen .icons:first-child{
     padding-top: 120px;
     padding: 120px 10px 0 10px;
     color: black;
+}
+.content-section .item1 span{
+    color: white;
 }
 .container-shop h2{
     display: block;
@@ -658,6 +666,7 @@ footer .zahlungen .icons:first-child{
     cursor: pointer;
     margin-bottom: 15px;
     margin-top: 5px;
+    color: white;
 }
 .cart-row{
     display: flex;
@@ -723,12 +732,11 @@ footer .zahlungen .icons:first-child{
 }
 
 #body-store{
-    background-color: #f1f1f1;
+    background-color: #d0cbcb;
 }
 .container-shop-backgr{
     background-color: #b9d3d4;
 }
-/* gallerie */
 
 /* a propos */
 .content-large3{
